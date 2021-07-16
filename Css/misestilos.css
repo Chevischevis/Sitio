@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Voy a usar esta paginas de estilos de css para todas las otras paginas */
+h1 {
+font: bold 25px verdana, sans-serif;
+}
+
+h2 {
+font: bold 15px verdana, sans-serif;
+}
+
+header, section, footer, aside, nav, article, figure, figcaption,hgroup{
+display: block;
+}
+
+body{
+    text-align: center;
+}
+
+#agrupar {
+width: 1000px;
+margin: 15px auto;
+text-align: left;
+}
+
+#cabecera {
+background: #ADD8E6;
+border: 1px solid #999999;
+padding: 20px;
+font-family:sans-serif;
+}
+
+#imguno{
+    width: 400px;
+    height: 270px;
+} 
+
+
+/*
+#menu {
+background: #B0C4DE;
+padding: 5px 15px;
+}
+
+#menu li {
+display: inline-block;
+list-style: none;
+padding: 5px;
+font: bold 14px verdana, sans-serif;
+color: #000000;
+}
+
+#menu li a{
+text-decoration: none;
+outline: none !important;
+textarea:focus, input:focus;
+outline: none !important;
+color: black; font-family: arial; text-decoration: none;
+color: black; font-family: arial; text-decoration: none;
+color: black; font-family: arial; text-decoration: none;
+}
+*/
+.nav > li {
+    float:left;
+}
+
+ul, ol {
+    list-style:none;
+}
+#menu {
+    margin:auto;
+    width:1000px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.nav li a {
+    background-color:#B0C4DE;
+    padding:10px 85px;
+    text-decoration:none;
+    display:block;
+    color:#000000;
+    border:1px solid #999999;
+}
+
+.nav li a:hover {
+    background-color:#434343;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:90px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-300px;
+    top:0px;
+}
+
+
+#seccion {
+float: left;
+width: 620px;
+margin: 20px;
+}
+
+#columna {
+float: left;
+width: 160px;
+margin: 20px 0px;
+padding: 20px;
+background: #CCCCCC;
+}
+
+#pie {
+clear:both;
+text-align: center;
+padding: 20px;
+border-top: 2px solid #999999;
+}
+
+article {
+background: #E6E6FA;
+border: 1px solid #999999;
+padding: 20px;
+margin-bottom: 15px;
+}
+
+article footer {
+text-align: right;
+}
+
+time {
+color: #999999;
+font-size:9px;
+}
+
+figcaption {
+font: italic 12px verdana, sans-serif;
+text-align: left;
+}
+
+p {
+font:sans-serif;
+font-size: 15px;
+}
+
+div {
+width: 100px;
+margin: 20px;
+padding: 10px;
+border: 1px solid #000000;
+
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
