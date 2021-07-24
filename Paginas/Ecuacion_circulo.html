@@ -12,13 +12,13 @@
 
 
 <body>
+
     <div id="agrupar">
-        
         <header id="cabecera">
         <h1>Matemáticas con Chevis</h1>
         </header>
         
-        <nav id="menu"><!--agregar los enlaces -->
+        <nav id="menu"><!--agregar los enlaces, modificar cuando sea necesario -->
             <ul class="nav">
             <li> <a href="index.html">Inicio</a> </li>
             
@@ -53,18 +53,60 @@
             <header>
             
                 <hgroup>
-                <h1>Introducción a la idea intuitiva de un conjunto</h1>
+                <h1>Encontrar la ecuacion de una circunferencia dado 3 puntos</h1>
                 </hgroup>
                 <time datetime="02-05-2020" pubdate>publicado 10-12-2011 </time>
             </header>
-    
-            <p>Empecemos con la idea de lo que es un conjunto, sin uso de mucho formalismo un conjunto es una colección de cosas, pueden ser objetos, numeros, funciones. En fin los conjuntos son ideas muy generales </p>
             
-            <p>Lo primero es como representamos un conjunto (notación), un conjunto es totalmente determinado por sus elementos, de modo que usaremos la siguiete notación</p>
             
+            <p>Hola, que tal vamos a resolver un problema, que es común en la prepa y secundaria. El problema es, dados 3 puntos de una circunferencia describir su ecuación, que en palabras mas amables, es ¿Que circunferencia pasa por esos 3 puntos?
+            
+            Para empezar lo vamos a hacer con 3 puntos concretos (1,2), (3,4) y (5,6)
+            Lo primero es recordar que la ecuación de una circunferencia es
+            </p>
+            
+            <p>$$(x-a)^2+(y-b)^2=c^2 $$</p>
+            
+            <p>dónde (a,b) es el centro de la circunferencia y c es el radio.
+            
+            Si ahora realizamos algo de álgebra (cuentitas) llegamos a </p>
+            
+            \begin{equation}
+            \begin{array}{c}
+            x^2 - 2ax + a^2 + y^2 - 2by + b^2 = c^2\\
+            x^2 - 2ax + a^2 + y^2 - 2by + b^2 - c^2 = 0\\
+            x^2 - 2ax + y^2 - 2by + D = 0\\
+            \end{array}
+            \end{equation}
+            
+            <p>Tomando, recordemos además que la modificaciones de la ecuación original que hemos realizado mantiene la igualdad, por lo que no afectamos a la curva, siempre es la misma !!!</p>
+            
+            \begin{equation}
+                D =a^2 + b^2 - c^2 
+            \end{equation}
+            
+            <p>Recordemos que a,b,c son números. Vamos evaluar los puntos en la ultima ecuación de 2, no te espantes, solo mira lo que vamos a hacer abajo. Empecemos con (1,2)</p>
+            \begin{equation}
+            \begin{array}{c}
+                1^2 - 2a1 + 2^2 - 2b2 + D = 0\\
+                1 - 2a + 4 - 4b + D = 0
+            \end{array}
+            \end{equation}
 
-            <p>$$ \{a,b,d,1,2,rojo\} $$</p>
-            
+            <p>A esto nos referimos a evaluar XD; bueno continuando tenemos que</p>
+            \begin{equation}
+            \begin{array}{cc}
+            3^2 - 2a3 + 4^2 - 2b4 + D = 0 & 9 -6a+16-8b+D=0\\
+            5^2 - 2a5 + 6^2 - 2b6 + D = 0 & 25-10a+36-12b+D=0
+            \end{array}
+            \end{equation}
+            <p>El objetivo de lo anterior es determinar los coeficientes de la ecuación que buscamos, es decir, conocer a, b y D. Si se observa hemos llegado a un sistema lineal de ecuaciones, donde las (valores desconocidos)incógnitas son a,b, y D, solo debemos resolverlo</p>
+
+            <p>Usa el método que gustes, pero te recomiendo que no lo hagas por ningún método, solo intenta despejar a las incógnitas</p>
+
+
+
+
             
             <!--<figure>
                 <img src="Imagenes/pensar.jpg" id="imguno"/>
@@ -83,19 +125,14 @@
         
             <header>
             <hgroup>
-            <h1>Libros y materiales para aprender</h1>
-            
-            <h2>Subtítulo del mensaje dos</h2>
-            
+            <h1></h1>
             </hgroup>
             
             <time datetime="2011-12-15" pubdate>publicado 15-12-2011
             </time>
             </header>
             
-        <p>Hola algunos los libros que recomnedamos son:
-            
-        </p>
+        <p></p>
             <!--<footer>
             <p>comentarios (0)</p>
             </footer>-->
