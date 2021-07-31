@@ -18,11 +18,12 @@ display: block;
 
 body{
     text-align: center;
+    
 }
 
 #agrupar {
-width: 1000px;
-margin: 15px auto;
+width: 1100px;
+margin: 5px auto;
 text-align: left;
 }
 
@@ -44,7 +45,6 @@ font-family:sans-serif;
 background: #B0C4DE;
 padding: 5px 15px;
 }
-
 #menu li {
 display: inline-block;
 list-style: none;
@@ -52,7 +52,6 @@ padding: 5px;
 font: bold 14px verdana, sans-serif;
 color: #000000;
 }
-
 #menu li a{
 text-decoration: none;
 outline: none !important;
@@ -72,12 +71,12 @@ ul, ol {
 }
 #menu {
     margin:auto;
-    width:1000px;
+    width:1100px;
     font-family:Arial, Helvetica, sans-serif;
 }
 .nav li a {
     background-color:#B0C4DE;
-    padding:10px 85px;
+    padding:10px 104px;
     text-decoration:none;
     display:block;
     color:#000000;
@@ -91,7 +90,7 @@ ul, ol {
 .nav li ul {
     display:none;
     position:absolute;
-    min-width:90px;
+    min-width:100px;
 }
 
 .nav li:hover > ul {
@@ -110,13 +109,13 @@ ul, ol {
 
 #seccion {
 float: left;
-width: 620px;
+width: 700px;
 margin: 20px;
 }
 
 #columna {
 float: left;
-width: 160px;
+width: 280px;
 margin: 20px 0px;
 padding: 20px;
 background: #CCCCCC;
@@ -165,4 +164,3 @@ border: 1px solid #000000;
 -webkit-box-sizing: border-box;
 box-sizing: border-box;
 }
-
